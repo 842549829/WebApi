@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notify.Solution.WebApi", "Notify.Solution.WebApi\Notify.Solution.WebApi.csproj", "{442F2B87-311F-4E1F-A35C-1FE103775180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notify.Solution.Client", "Notify.Solution.Client\Notify.Solution.Client.csproj", "{8AD1BFCC-8153-4F19-BC9B-9BE33FC12EBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{442F2B87-311F-4E1F-A35C-1FE103775180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442F2B87-311F-4E1F-A35C-1FE103775180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442F2B87-311F-4E1F-A35C-1FE103775180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442F2B87-311F-4E1F-A35C-1FE103775180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AD1BFCC-8153-4F19-BC9B-9BE33FC12EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AD1BFCC-8153-4F19-BC9B-9BE33FC12EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AD1BFCC-8153-4F19-BC9B-9BE33FC12EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AD1BFCC-8153-4F19-BC9B-9BE33FC12EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
