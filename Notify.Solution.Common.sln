@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notify.Solution.WebApi", "Notify.Solution.WebApi\Notify.Solution.WebApi.csproj", "{442F2B87-311F-4E1F-A35C-1FE103775180}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notify.Solution.Client", "Notify.Solution.Client\Notify.Solution.Client.csproj", "{8AD1BFCC-8153-4F19-BC9B-9BE33FC12EBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostWebApi", "SelfHostWebApi\SelfHostWebApi.csproj", "{D5E9F448-EED9-4F62-BEBB-F350FA4D8ACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi2", "WebApi2\WebApi2.csproj", "{42002FCF-3E2C-406A-84D0-FCDE2DE7BCE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapi", "webapi", "{E88CA1D8-74D8-4CE0-ABBD-BEE61522AA74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webapi02", "webapi02", "{EEB9097B-F2C6-4060-A619-248647B31D37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +29,25 @@ Global
 		{8AD1BFCC-8153-4F19-BC9B-9BE33FC12EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AD1BFCC-8153-4F19-BC9B-9BE33FC12EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AD1BFCC-8153-4F19-BC9B-9BE33FC12EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E9F448-EED9-4F62-BEBB-F350FA4D8ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E9F448-EED9-4F62-BEBB-F350FA4D8ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E9F448-EED9-4F62-BEBB-F350FA4D8ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E9F448-EED9-4F62-BEBB-F350FA4D8ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42002FCF-3E2C-406A-84D0-FCDE2DE7BCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42002FCF-3E2C-406A-84D0-FCDE2DE7BCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42002FCF-3E2C-406A-84D0-FCDE2DE7BCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42002FCF-3E2C-406A-84D0-FCDE2DE7BCE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{442F2B87-311F-4E1F-A35C-1FE103775180} = {E88CA1D8-74D8-4CE0-ABBD-BEE61522AA74}
+		{8AD1BFCC-8153-4F19-BC9B-9BE33FC12EBE} = {E88CA1D8-74D8-4CE0-ABBD-BEE61522AA74}
+		{D5E9F448-EED9-4F62-BEBB-F350FA4D8ACF} = {EEB9097B-F2C6-4060-A619-248647B31D37}
+		{42002FCF-3E2C-406A-84D0-FCDE2DE7BCE6} = {EEB9097B-F2C6-4060-A619-248647B31D37}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E577F73-57A8-4F0A-B546-4C52CC40ECE6}
 	EndGlobalSection
 EndGlobal
